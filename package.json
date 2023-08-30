@@ -4,7 +4,8 @@
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
-    "typecheck": "tsc"
+    "typecheck": "tsc", 
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@remix-run/css-bundle": "^1.19.3",
